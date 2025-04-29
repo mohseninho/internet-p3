@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: #444444;
+}
+
+a{
+    color: #444444;  
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
