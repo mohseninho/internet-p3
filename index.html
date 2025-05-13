@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +13,7 @@
 
     <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,8 +28,8 @@
         <div class="container d-flex justify-content-between align-items-center">
             <a href="index.html" style="font-size: 28px; font-weight: 600; letter-spacing: 1px; color:black;">MULTI</a>
             <div class="d-flex justify-content-center align-items-center flex-row-reverse gap-4">
-                <button class="px-4 py-2 rounded-1 text-white btn-get-started"
-                    style="font-size: 14px;">Get Started</button>
+                <button onclick="window.location.href = 'login.html';"
+                    class="px-4 py-2 rounded-1 text-white btn-get-started" style="font-size: 14px;">Get Started</button>
                 <nav class="justify-content-center align-items-center" style="font-size: 14px;">
                     <ul class="m-0 d-flex justify-content-center align-items-center gap-4">
                         <li><a href="#" style="color: #ed502e;">Home</a></li>
@@ -50,228 +51,342 @@
                 style="background-image: url('https://bootstrapmade.com/content/demo/Multi/assets/img/hero-carousel/hero-carousel-1.jpg')">
                 <div class="carousel-caption text-center text-white">
                     <h1>Title 1</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nemo incidunt corrupti eius
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, nemo
+                        incidunt corrupti eius
                         numquam laborum necessitatibus, odio excepturi fuga sit labore, adipisci dolorum dolorem
                         voluptas!</p>
-                    <a href="#" class="py-2 rounded-1 btn btn-get-started mt-3" style="font-size: 15px;">Get Started</a>
+                    <a href="login.html" class="py-2 rounded-1 btn btn-get-started mt-3" style="font-size: 15px;">Get
+                        Started</a>
                 </div>
             </div>
             <div class="carousel-item"
                 style="background-image: url('https://bootstrapmade.com/content/demo/Multi/assets/img/hero-carousel/hero-carousel-2.jpg')">
                 <div class="carousel-caption text-center text-white">
                     <h1>Title 2</h1>
-                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum natus atque iste assumenda ipsa
+                    <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum natus atque
+                        iste assumenda ipsa
                         temporibus eum optio animi unde vitae? Dolores quis vero error ullam!</p>
                     <a href="#" class="py-2 rounded-1 btn btn-get-started mt-3" style="font-size: 15px;"">Get Started</a>
                 </div>
             </div>
-            <div class="carousel-item"
-                style="background-image: url('https://bootstrapmade.com/content/demo/Multi/assets/img/hero-carousel/hero-carousel-3.jpg')">
-                <div class="carousel-caption text-center text-white">
-                    <h1>Title 3</h1>
-                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quo ab adipisci tempore quos quam
-                        labore ipsa modi nesciunt eaque quibusdam eius, dicta aperiam possimus.</p>
-                    <a href="#" class="py-2 rounded-1 btn btn-get-started mt-3" style="font-size: 15px;"">Get Started</a>
+            <div class=" carousel-item"
+                        style="background-image: url('https://bootstrapmade.com/content/demo/Multi/assets/img/hero-carousel/hero-carousel-3.jpg')">
+                        <div class="carousel-caption text-center text-white">
+                            <h1>Title 3</h1>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, quo ab
+                                adipisci tempore quos quam
+                                labore ipsa modi nesciunt eaque quibusdam eius, dicta aperiam possimus.</p>
+                            <a href="#" class="py-2 rounded-1 btn btn-get-started mt-3" style="font-size: 15px;"">Get Started</a>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" style="width: 80px;" type="button" data-bs-target="#heroCarousel"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" style="width: 80px;" type="button" data-bs-target="#heroCarousel"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </div>
-    <!-- About -->
-    <section class="py-5">
-        <div class="container">
-            <div class=" mb-4">
-                <div class=" text-start d-flex flex-column">
-                    <small class="text-uppercase text-muted">About</small>
-                    <h2 class="fw-bold text-dark d-inline-block pb-1 text-uppercase">
-                        Learn More About Us
-                    </h2>
-                </div>
-            </div>
+        <button class=" carousel-control-prev" style="width: 80px;" type="button" data-bs-target="#heroCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" style="width: 80px;" type="button"
+                                    data-bs-target="#heroCarousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                        </div>
+                        <!-- About -->
+                        <section class="py-5">
+                            <div class="container">
+                                <div class=" mb-4">
+                                    <div class=" text-start d-flex flex-column">
+                                        <small class="text-uppercase text-muted">About</small>
+                                        <h2 class="fw-bold text-dark d-inline-block pb-1 text-uppercase">
+                                            Learn More About Us
+                                        </h2>
+                                    </div>
+                                </div>
 
-            <div class="row align-items-start">
-                <div class="col-lg-6">
-                    <p class="mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                    </p>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><span class="text-danger me-2"><i class="bi bi-check-circle" style="color: #ed502e;"></i></span>Ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.</li>
-                        <li class="mb-2"><span class="text-danger me-2"><i class="bi bi-check-circle" style="color: #ed502e;"></i></span>Duis aute irure dolor in reprehenderit
-                            in voluptate velit.</li>
-                        <li class="mb-2"><span class="text-danger me-2"><i class="bi bi-check-circle" style="color: #ed502e;"></i></span>Ullamco laboris nisi ut aliquip ex ea
-                            commodo</li>
-                    </ul>
-                </div>
+                                <div class="row align-items-start">
+                                    <div class="col-lg-6">
+                                        <p class="mb-4">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut
+                                            labore et dolore magna aliqua.
+                                        </p>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><span class="text-danger me-2"><i
+                                                        class="bi bi-check-circle"
+                                                        style="color: #ed502e;"></i></span>Ullamco laboris nisi ut
+                                                aliquip ex ea
+                                                commodo consequat.</li>
+                                            <li class="mb-2"><span class="text-danger me-2"><i
+                                                        class="bi bi-check-circle"
+                                                        style="color: #ed502e;"></i></span>Duis aute irure dolor in
+                                                reprehenderit
+                                                in voluptate velit.</li>
+                                            <li class="mb-2"><span class="text-danger me-2"><i
+                                                        class="bi bi-check-circle"
+                                                        style="color: #ed502e;"></i></span>Ullamco laboris nisi ut
+                                                aliquip ex ea
+                                                commodo</li>
+                                        </ul>
+                                    </div>
 
-                <div class="col-lg-6">
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum.
-                    </p>
-                    <a href="#" class="py-2 rounded-1 btn btn-get-started mt-1">Read More <i class="bi bi-arrow-right text-white"></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- achievement -->
-    <section class="py-5">
-        <div class="container">
-            <div class="d-flex justify-content-center align-items-center row">
-                <div class="p-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="shadow-lg bg-white rounded-1 position-relative" style="height: 135px;">
-                        <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center" style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;"><i class="bi bi-emoji-smile" style="color: #ed502e;"></i></div>
-                        <div class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
-                            <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
-                            <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Happy Clients</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="shadow-lg bg-white rounded-1 position-relative" style="height: 135px;">
-                        <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center" style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;"><i class="bi bi-journal-richtext" style="color: #ed502e;"></i></div>
-                        <div class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
-                            <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
-                            <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Projects</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="shadow-lg bg-white rounded-1 position-relative" style="height: 135px;">
-                        <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center" style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;"><i class="bi bi-headset" style="color: #ed502e;"></i></div>
-                        <div class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
-                            <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
-                            <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Hours Of Support</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-3 col-md-6 col-sm-12">
-                    <div class="shadow-lg bg-white rounded-1 position-relative" style="height: 135px;">
-                        <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center" style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;"><i class="bi bi-people" style="color: #ed502e;"></i></div>
-                        <div class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
-                            <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
-                            <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Hard Workers</h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- features -->
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="p-2 col-lg-3 col-md-6">
-                    <div class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
-                        <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum dolor sit.</h4>
-                        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo rerum totam vero neque. Esse voluptatibus harum soluta iste debitis ullam ea atque accusantium iure odio.</p>
-                        <ul class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="p-2 col-lg-3 col-md-6">
-                    <div class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
-                        <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum dolor sit.</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facilis repellendus minus nemo alias excepturi?</p>
-                        <ul class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="p-2 col-lg-3 col-md-6">
-                    <div class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
-                        <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum dolor sit.</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit officiis, enim nisi deleniti beatae quos neque accusantium ipsam.</p>
-                        <ul class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="p-2 col-lg-3 col-md-6">
-                    <div class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
-                        <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum dolor sit.</h4>
-                        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo rerum totam vero neque. Esse voluptatibus harum soluta iste debitis ullam ea atque accusantium iure odio.</p>
-                        <ul class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                            <li class="text-muted"><i class="bi bi-check2" style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Services -->
-    <section class="py-5">
-        <div class="container">
-            <div class="mb-4">
-                <div class="text-start d-flex flex-column">
-                    <small class="text-uppercase text-muted">Services</small>
-                    <h2 class="fw-bold text-dark d-inline-block pb-1 text-uppercase">
-                        Check Our Services
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="p-3 col-lg-4 col-md-6">
-                    <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white" style="height: 360px; border: 1px solid rgb(222, 222, 222);">
-                        <div class="rounded-1 d-flex justify-content-center align-items-center" style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;"><i class="bi bi-activity text-white"></i></div>
-                        <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">lorem 1</h3>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem doloremque incidunt dignissimos qui necessitatibus.</p>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-4 col-md-6">
-                    <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white" style="height: 360px; border: 1px solid rgb(222, 222, 222);">
-                        <div class="rounded-1 d-flex justify-content-center align-items-center" style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;"><i class="bi bi-broadcast text-white"></i></div>
-                        <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">lorem 1</h3>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem doloremque incidunt dignissimos qui necessitatibus.</p>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-4 col-md-6">
-                    <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white" style="height: 360px; border: 1px solid rgb(222, 222, 222);">
-                        <div class="rounded-1 d-flex justify-content-center align-items-center" style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;"><i class="bi bi-easel text-white"></i></div>
-                        <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">lorem 1</h3>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem doloremque incidunt dignissimos qui necessitatibus.</p>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-4 col-md-6">
-                    <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white" style="height: 360px; border: 1px solid rgb(222, 222, 222);">
-                        <div class="rounded-1 d-flex justify-content-center align-items-center" style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;"><i class="bi bi-bounding-box-circles text-white"></i></div>
-                        <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">lorem 1</h3>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem doloremque incidunt dignissimos qui necessitatibus.</p>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-4 col-md-6">
-                    <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white" style="height: 360px; border: 1px solid rgb(222, 222, 222);">
-                        <div class="rounded-1 d-flex justify-content-center align-items-center" style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;"><i class="bi bi-calendar4-week text-white"></i></div>
-                        <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">lorem 1</h3>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem doloremque incidunt dignissimos qui necessitatibus.</p>
-                    </div>
-                </div>
-                <div class="p-3 col-lg-4 col-md-6">
-                    <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white" style="height: 360px; border: 1px solid rgb(222, 222, 222);">
-                        <div class="rounded-1 d-flex justify-content-center align-items-center" style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;"><i class="bi bi-chat-square-text text-white"></i></div>
-                        <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">lorem 1</h3>
-                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem doloremque incidunt dignissimos qui necessitatibus.</p>
-                    </div>
-                </div>
-            </div>
-    </section>
+                                    <div class="col-lg-6">
+                                        <p>
+                                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                            dolor in reprehenderit
+                                            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                            deserunt mollit anim
+                                            id est laborum.
+                                        </p>
+                                        <a href="#" class="py-2 rounded-1 btn btn-get-started mt-1">Read More <i
+                                                class="bi bi-arrow-right text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- achievement -->
+                        <section class="py-5">
+                            <div class="container">
+                                <div class="d-flex justify-content-center align-items-center row">
+                                    <div class="p-3 col-lg-3 col-md-6 col-sm-12">
+                                        <div class="shadow-lg bg-white rounded-1 position-relative"
+                                            style="height: 135px;">
+                                            <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center"
+                                                style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;">
+                                                <i class="bi bi-emoji-smile" style="color: #ed502e;"></i>
+                                            </div>
+                                            <div
+                                                class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
+                                                <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
+                                                <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Happy
+                                                    Clients</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-3 col-md-6 col-sm-12">
+                                        <div class="shadow-lg bg-white rounded-1 position-relative"
+                                            style="height: 135px;">
+                                            <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center"
+                                                style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;">
+                                                <i class="bi bi-journal-richtext" style="color: #ed502e;"></i>
+                                            </div>
+                                            <div
+                                                class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
+                                                <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
+                                                <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">
+                                                    Projects</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-3 col-md-6 col-sm-12">
+                                        <div class="shadow-lg bg-white rounded-1 position-relative"
+                                            style="height: 135px;">
+                                            <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center"
+                                                style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;">
+                                                <i class="bi bi-headset" style="color: #ed502e;"></i>
+                                            </div>
+                                            <div
+                                                class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
+                                                <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
+                                                <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Hours
+                                                    Of Support</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-3 col-md-6 col-sm-12">
+                                        <div class="shadow-lg bg-white rounded-1 position-relative"
+                                            style="height: 135px;">
+                                            <div class="rounded-circle shadow-sm bg-white position-absolute start-50 d-flex justify-content-center align-items-center"
+                                                style="width: 54px; height: 54px; top: -26px; transform: translate(-50%,0); font-size: 25px;">
+                                                <i class="bi bi-people" style="color: #ed502e;"></i>
+                                            </div>
+                                            <div
+                                                class="h-100 d-flex justify-content-center align-items-center flex-column text-muted">
+                                                <h3 class="m-0" style="font-size: 36px; font-weight: 700;">200</h3>
+                                                <h5 class="mb-0 mt-1" style="font-size: 16px; font-weight: 400;">Hard
+                                                    Workers</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- features -->
+                        <section class="py-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="p-2 col-lg-3 col-md-6">
+                                        <div
+                                            class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
+                                            <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum
+                                                dolor sit.</h4>
+                                            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                                elit. Illo rerum totam vero neque. Esse voluptatibus harum soluta iste
+                                                debitis ullam ea atque accusantium iure odio.</p>
+                                            <ul
+                                                class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="p-2 col-lg-3 col-md-6">
+                                        <div
+                                            class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
+                                            <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum
+                                                dolor sit.</h4>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Mollitia facilis repellendus minus nemo alias excepturi?</p>
+                                            <ul
+                                                class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="p-2 col-lg-3 col-md-6">
+                                        <div
+                                            class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
+                                            <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum
+                                                dolor sit.</h4>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing
+                                                elit. Impedit officiis, enim nisi deleniti beatae quos neque accusantium
+                                                ipsam.</p>
+                                            <ul
+                                                class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="p-2 col-lg-3 col-md-6">
+                                        <div
+                                            class="p-2 d-flex justify-content-center align-items-center flex-column gap-3">
+                                            <h4 class="w-100" style="font-weight: bold; color: #0b2341;">Lorem ipsum
+                                                dolor sit.</h4>
+                                            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                                elit. Illo rerum totam vero neque. Esse voluptatibus harum soluta iste
+                                                debitis ullam ea atque accusantium iure odio.</p>
+                                            <ul
+                                                class="list-unstyled w-100 d-flex justify-content-center align-items-start flex-column gap-3">
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                                <li class="text-muted"><i class="bi bi-check2"
+                                                        style="color: #ed502e;"></i> Lorem ipsum dolor sit amet.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Services -->
+                        <section class="py-5">
+                            <div class="container">
+                                <div class="mb-4">
+                                    <div class="text-start d-flex flex-column">
+                                        <small class="text-uppercase text-muted">Services</small>
+                                        <h2 class="fw-bold text-dark d-inline-block pb-1 text-uppercase">
+                                            Check Our Services
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="p-3 col-lg-4 col-md-6">
+                                        <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white"
+                                            style="height: 360px; border: 1px solid rgb(222, 222, 222);">
+                                            <div class="rounded-1 d-flex justify-content-center align-items-center"
+                                                style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;">
+                                                <i class="bi bi-activity text-white"></i>
+                                            </div>
+                                            <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">
+                                                lorem 1</h3>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Perferendis dolorem doloremque incidunt dignissimos qui
+                                                necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-4 col-md-6">
+                                        <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white"
+                                            style="height: 360px; border: 1px solid rgb(222, 222, 222);">
+                                            <div class="rounded-1 d-flex justify-content-center align-items-center"
+                                                style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;">
+                                                <i class="bi bi-broadcast text-white"></i>
+                                            </div>
+                                            <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">
+                                                lorem 1</h3>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Perferendis dolorem doloremque incidunt dignissimos qui
+                                                necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-4 col-md-6">
+                                        <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white"
+                                            style="height: 360px; border: 1px solid rgb(222, 222, 222);">
+                                            <div class="rounded-1 d-flex justify-content-center align-items-center"
+                                                style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;">
+                                                <i class="bi bi-easel text-white"></i>
+                                            </div>
+                                            <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">
+                                                lorem 1</h3>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Perferendis dolorem doloremque incidunt dignissimos qui
+                                                necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-4 col-md-6">
+                                        <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white"
+                                            style="height: 360px; border: 1px solid rgb(222, 222, 222);">
+                                            <div class="rounded-1 d-flex justify-content-center align-items-center"
+                                                style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;">
+                                                <i class="bi bi-bounding-box-circles text-white"></i>
+                                            </div>
+                                            <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">
+                                                lorem 1</h3>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Perferendis dolorem doloremque incidunt dignissimos qui
+                                                necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-4 col-md-6">
+                                        <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white"
+                                            style="height: 360px; border: 1px solid rgb(222, 222, 222);">
+                                            <div class="rounded-1 d-flex justify-content-center align-items-center"
+                                                style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;">
+                                                <i class="bi bi-calendar4-week text-white"></i>
+                                            </div>
+                                            <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">
+                                                lorem 1</h3>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Perferendis dolorem doloremque incidunt dignissimos qui
+                                                necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                    <div class="p-3 col-lg-4 col-md-6">
+                                        <div class="p-4 d-flex justify-content-center align-items-center flex-column gap-4 bg-white"
+                                            style="height: 360px; border: 1px solid rgb(222, 222, 222);">
+                                            <div class="rounded-1 d-flex justify-content-center align-items-center"
+                                                style="width: 64px; height: 64px; background-color: #ed502e; font-size: 25px; box-shadow: -8px -8px 0 #ffcabe;">
+                                                <i class="bi bi-chat-square-text text-white"></i>
+                                            </div>
+                                            <h3 class="m-0 text-capitalize" style="font-size: 22px; font-weight: bold;">
+                                                lorem 1</h3>
+                                            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing
+                                                elit. Perferendis dolorem doloremque incidunt dignissimos qui
+                                                necessitatibus.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </section>
 </body>
+
 </html>
