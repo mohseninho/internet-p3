@@ -10,21 +10,26 @@ function login(event) {
 
     if (user === '' || pass === '') {
         messageBox.classList.add('text-danger');
-        messageBox.innerText = 'لطفاً همه فیلدها را پر کنید.';
+        messageBox.innerText = 'Please fill in all the fields.';
         return;
     }
 
     if (pass.length < 4) {
         messageBox.classList.add('text-danger');
-        messageBox.innerText = 'رمز عبور باید حداقل ۴ کاراکتر باشد.';
+        messageBox.innerText = 'Password must be at least 4 characters long.';
         return;
     }
 
     if (user === 'admin' && pass === '1234') {
         messageBox.classList.add('text-success');
-        messageBox.innerText = 'ورود موفق!';
+        messageBox.innerText = 'Login successful!';
+        window.location.href = 'adminPanel.html';
+    } else if (user === 'user' && pass === '1234') {
+        messageBox.classList.add('text-success');
+        messageBox.innerText = 'Login successful!';
+        window.location.href = 'userPanel.html';
     } else {
         messageBox.classList.add('text-danger');
-        messageBox.innerText = 'نام کاربری یا رمز عبور اشتباه است.';
+        messageBox.innerText = 'Incorrect username or password.';
     }
-  }
+}
